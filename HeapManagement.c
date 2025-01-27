@@ -17,7 +17,7 @@ typedef struct MetaData
 
 
 
-MetaBlock *heap_block_ptr = (void *)Heap;
+MetaBlock *heap_block_ptr = (void *)Heap; //A pointer to the first MetaBlock in the heap, initialized to the start of the Heap array.
 
 
 
